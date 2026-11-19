@@ -10,4 +10,8 @@ public class Bok {
         this.sidor = sidor;
         this.utlanad = false;
     }
+
+    public void visa() {
+        System.out.println(titel + " av " + forfattare + ", " + sidor + " sidor. Utlånad: " + utlanad);
+    }
 }

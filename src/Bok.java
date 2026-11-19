@@ -20,7 +20,7 @@ public class Bok {
         System.out.println(titel + " lånas ut");
     }
 
-    public void lanaTillbaka() {
+    public void lamnaTillbaka() {
         utlanad = false;
         System.out.println(titel + " lämnas tillbaka");
     }

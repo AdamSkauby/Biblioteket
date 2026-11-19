@@ -11,11 +11,10 @@ public class Main {
 
         keltiska.lanaUt();
         adam.lana();
-        keltiska.visa();
+        keltiska.lanaUt();
+        omar.lana();
         adam.visa();
-
-        int minuter = keltiska.lasminuter();
-        System.out.println("Den keltiska ringen tar ungefär " + minuter + " minuter att läsa");
+        omar.visa();
     }
 }
 

@@ -14,10 +14,8 @@ public class Main {
         keltiska.visa();
         adam.visa();
 
-        keltiska.lamnaTillbaka();
-        adam.lamna();
-        keltiska.visa();
-        adam.visa();
+        int minuter = keltiska.lasminuter();
+        System.out.println("Den keltiska ringen tar ungefär " + minuter + " minuter att läsa");
     }
 }
 

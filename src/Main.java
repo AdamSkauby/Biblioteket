@@ -7,6 +7,11 @@ public class Main {
             System.out.println(hobbit.titel + " av " + hobbit.forfattare);
             System.out.println(momo.titel + " av " + momo.forfattare);
             System.out.println(pippi.titel + " av " + pippi.forfattare);
+
+            Lantagare anna = new Lantagare("Anna");
+            Lantagare omar = new Lantagare("Omar");
+            System.out.println(anna.namn + " har " + anna.antalLan + " lån");
+            System.out.println(omar.namn + " har " + omar.antalLan + " lån");
     }
 }
 

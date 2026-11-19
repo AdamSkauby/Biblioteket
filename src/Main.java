@@ -9,13 +9,15 @@ public class Main {
         Lantagare anna = new Lantagare("Anna");
         Lantagare omar = new Lantagare("Omar");
 
+        keltiska.lanaUt();
+        adam.lana();
         keltiska.visa();
-        hobbit.visa();
-        momo.visa();
-        pippi.visa();
         adam.visa();
-        anna.visa();
-        omar.visa();
+
+        keltiska.lamnaTillbaka();
+        adam.lamna();
+        keltiska.visa();
+        adam.visa();
     }
 }
 

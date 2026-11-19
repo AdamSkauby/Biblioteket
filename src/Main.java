@@ -22,6 +22,14 @@ public class Main {
         adam.visa();
         anna.visa();
         omar.visa();
+
+        for (int forsok = 1; forsok <= 3; forsok++) {
+            System.out.println("Försök " + forsok);
+            momo.lanaUt();
+        }
+
+        pippi.lamnaTillbaka();
+        anna.lamna();
     }
 }
 

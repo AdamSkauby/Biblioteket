@@ -9,11 +9,18 @@ public class Main {
         Lantagare anna = new Lantagare("Anna");
         Lantagare omar = new Lantagare("Omar");
 
-        keltiska.lanaUt();
-        adam.lana();
-        keltiska.lanaUt();
-        omar.lana();
+        boolean gick = keltiska.lanaUt();
+        if (gick) {
+            adam.lana();
+        }
+
+        gick = keltiska.lanaUt();
+        if (gick) {
+            omar.lana();
+        }
+
         adam.visa();
+        anna.visa();
         omar.visa();
     }
 }

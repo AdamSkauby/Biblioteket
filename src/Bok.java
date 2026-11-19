@@ -14,4 +14,14 @@ public class Bok {
     public void visa() {
         System.out.println(titel + " av " + forfattare + ", " + sidor + " sidor. Utlånad: " + utlanad);
     }
+
+    public void lanaUt() {
+        utlanad = true;
+        System.out.println(titel + " lånas ut");
+    }
+
+    public void lanaTillbaka() {
+        utlanad = false;
+        System.out.println(titel + " lämnas tillbaka");
+    }
 }

@@ -16,8 +16,12 @@ public class Bok {
     }
 
     public void lanaUt() {
-        utlanad = true;
-        System.out.println(titel + " lånas ut");
+        if (utlanad) {
+            System.out.println(titel + " är redan utlånad");
+        } else {
+            utlanad = true;
+            System.out.println(titel + " lånas ut");
+        }
     }
 
     public void lamnaTillbaka() {

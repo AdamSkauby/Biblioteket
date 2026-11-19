@@ -2,18 +2,21 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Biblioteket öppnar");
         Bok keltiska = new Bok("Den keltiska ringen", "Björn Larsson", 304);
-        Lantagare adam = new Lantagare("Adam");
-
-        System.out.println(adam.getNamn() + " vill låna " + keltiska.getTitel() + " av " + keltiska.getForfattare());
-        /*keltiska.lanaUt();
-        keltiska.utlanad = false;
-        keltiska.lanaUt();
         Bok hobbit = new Bok("Hobbit", "J.R.R. Tolkien", 310);
         Bok momo = new Bok("Momo", "Michael Ende", 250);
         Bok pippi = new Bok("Pippi Långstrump", "Astrid Lindgren", 160);
+        System.out.println("Böcker i biblioteket: " + Bok.getAntal());
+
+        /*Lantagare adam = new Lantagare("Adam");
+
+        System.out.println(adam.getNamn() + " vill låna " + keltiska.getTitel() + " av " + keltiska.getForfattare());
+        keltiska.lanaUt();
+        keltiska.utlanad = false;
+        keltiska.lanaUt();
+
         Lantagare adam = new Lantagare("Adam");
         Lantagare anna = new Lantagare("Anna");
-        Lantagare omar = new Lantagare("Omar");*/
+        Lantagare omar = new Lantagare("Omar");
 
         boolean gick = keltiska.lanaUt();
         if (gick) {
@@ -22,7 +25,7 @@ public class Main {
         System.out.println(adam.getNamn() + " har nu " + adam.getAntalLan() + " lån");
 
 
-        /*gick = keltiska.lanaUt();
+        gick = keltiska.lanaUt();
         if (gick) {
             omar.lana();
         }

@@ -1,4 +1,5 @@
 public class Bok {
+    private static int antal = 0;
     private String titel;
     private String forfattare;
     private int sidor;
@@ -9,6 +10,11 @@ public class Bok {
         this.forfattare = forfattare;
         this.sidor = sidor;
         this.utlanad = false;
+        antal = antal + 1;
+    }
+
+    public static int getAntal() {
+        return antal;
     }
 
     public String getTitel() {

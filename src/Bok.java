@@ -24,4 +24,8 @@ public class Bok {
         utlanad = false;
         System.out.println(titel + " lämnas tillbaka");
     }
+
+    public int lasminuter() {
+        return sidor * 2;
+    }
 }

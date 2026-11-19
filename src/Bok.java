@@ -1,14 +1,22 @@
 public class Bok {
-    String titel;
-    String forfattare;
-    int sidor;
-    boolean utlanad;
+    private String titel;
+    private String forfattare;
+    private int sidor;
+    private boolean utlanad;
 
     public Bok(String titel, String forfattare, int sidor) {
         this.titel = titel;
         this.forfattare = forfattare;
         this.sidor = sidor;
         this.utlanad = false;
+    }
+
+    public String getTitel() {
+        return titel;
+    }
+
+    public String getForfattare() {
+        return forfattare;
     }
 
     public void visa() {

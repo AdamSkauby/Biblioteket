@@ -10,4 +10,13 @@ public class Lantagare {
     public void visa() {
         System.out.println(namn + " har " + antalLan + " lån");
     }
+
+    public void lana() {
+        antalLan = antalLan + 1;
+
+    }
+
+    public void lamna() {
+        antalLan = antalLan - 1;
+    }
 }

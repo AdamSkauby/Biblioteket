@@ -17,6 +17,10 @@ public class Lantagare {
     }
 
     public void lamna() {
-        antalLan = antalLan - 1;
+        if (antalLan > 0) {
+            antalLan = antalLan - 1;
+        } else {
+            System.out.println(namn + " har inga lån att lämna tillbaka");
+        }
     }
 }

@@ -1,10 +1,18 @@
 public class Lantagare {
-    String namn;
-    int antalLan;
+    private String namn;
+    private int antalLan;
 
     public Lantagare(String namn) {
         this.namn = namn;
         this.antalLan = 0;
+    }
+
+    public String getNamn() {
+        return namn;
+    }
+
+    public int getAntalLan() {
+        return antalLan;
     }
 
     public void visa() {
